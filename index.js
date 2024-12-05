@@ -16,7 +16,8 @@ app.get('/', (req, res) => {
 const mongoose = require('mongoose');
 const { Schema } = mongoose;
 
-const uri = "mongodb+srv://testuser:pp123@bech4.zjecm.mongodb.net/?retryWrites=true&w=majority&appName=BECH4";
+//disabled and changed
+//const uri = "mongodb+srv://testuser:pp123@bech4.zjecm.mongodb.net/?retryWrites=true&w=majority&appName=BECH4";
 
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
